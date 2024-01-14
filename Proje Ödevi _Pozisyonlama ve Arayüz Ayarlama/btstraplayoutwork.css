@@ -1,0 +1,47 @@
+.entry .entry-img {
+
+    width: 600px;
+    height: auto;
+    border-radius: 5%;
+    
+
+}
+
+@media (max-width:768px) {
+    .entry .buttons button{
+       display: block;
+       width: 100%;
+       margin-bottom: 10px; 
+        
+
+
+    }   
+}
+
+.icon {
+
+    width: 10%;
+    height: auto;
+
+}
+
+.sentences img {
+
+    border-radius: 20px;
+
+
+}
+
+@media (max-width: 768px) {
+
+    .sentences .sentence {
+
+        font-size: 1,2rem;
+        line-height: 30px;
+
+
+    }
+
+
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Ödevi</title>
+    <link
+      rel="shortcut icon"
+      href="https://blog.hostingdunyam.com.tr/wp-content/uploads/2022/11/timthumb.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="cssodev1.css" />
+    <style>
+      .dotted-bold-divider {
+        border-top: 5px dotted rgb(233, 175, 163);
+      }
+      #baslik{
+
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1><center>Neden CSS'e ihtiyaç duyarız?</center></h1>
+      <hr class="dotted-bold-divider" />
+      <p>
+        <center>
+          HTML, içeriğin nasıl görüntüleneceğini, sayfaya nasıl yerleşeceğini
+          belirlemek için tasarlanmış bir dil değildir. HTML’nin amacı içeriği
+          tarif etmek, içeriğin hiyerarşisini belirlemektir. <br />
+          Sayfanın başlığı nedir, sayfadaki bağlantılar hangileridir, alt alta
+          dizili bu satırlar bir liste midir yoksa sıradan paragraflar mıdır?
+          HTML’nin işi bu soruların cevaplarını vermektir. <br />
+          Başlık kırmızı mı olsun, logo büyük mü olsun, sol üstte mi olsun? HTML
+          bunlara karışmaz.
+        </center>
+      </p>
+      <p>
+        <center>
+          CSS tam burada devreye girer. CSS’in işlevi neyin, nerede, nasıl
+          görüntüleneceğini tarif etmektir. <br />Mesela logonun sayfanın sol
+          üst köşesini tamamıyla kaplayacak şekilde görüntülenmesi CSS’in
+          sorumluluk alanındadır. <br />Bir ay sonra logonun sağ üst köşenin
+          tamamını kaplaması icap ettiğinde, HTML koduna veya logonun yer aldığı
+          resim dosyasına hiç dokunmadan bu işi gerçekleştirmek yine CSS’le
+          yapılacaktır.
+        </center>
+      </p>
+      <h2><center>Öğrenciler</center></h2>
+      <table width="400" border="5">
+        <thead>
+          <tr id="baslik">
+            <th>İsim</th>
+            <th>Soyisim</th>
+            <th>Sınıf</th>
+            <th>Not ort.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: bisque;">
+            <td>Dilara</td>
+            <td>Peynirci</td>
+            <td>7</td>
+            <td>4.43</td>
+          </tr>
+          <tr style="background-color: indianred;">
+            <td>Emirhan</td>
+            <td>Uzun</td>
+            <td>6</td>
+            <td>4.5</td>
+          </tr>
+          <tr style="background-color: cadetblue;">
+            <td>Çağrı</td>
+            <td>Yılmaz</td>
+            <td>8</td>
+            <td>3.98</td>
+          </tr>
+          <tr style="background-color: peru;">
+            <td>Miray</td>
+            <td>Küçük</td>
+            <td>6</td>
+            <td>3.78</td>
+          </tr>
+          <tr style="background-color: greenyellow;">
+            <td>Kadir</td>
+            <td>Koç</td>
+            <td>7</td>
+            <td>4.75</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
