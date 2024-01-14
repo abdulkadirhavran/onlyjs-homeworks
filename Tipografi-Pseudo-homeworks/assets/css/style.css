@@ -11,6 +11,8 @@
     ekran görüntülerinin biraz daha havalı durmasını sağlıyor sadece :)
 */
 
+/* ÖDEV KODLARIM BURADAN BAŞLAR. */
+
 #technologies li::marker {
 
   content: "⏳";
@@ -54,6 +56,7 @@
   background-color: red;
   border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {  /* Vurgu olayını ayrı seviyorum :) */
 
    background-color: chocolate; 
