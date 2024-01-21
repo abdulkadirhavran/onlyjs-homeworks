@@ -46,7 +46,7 @@
   background-color: red;
 
 }
-::-webkit-scrollbar {
+::-webkit-scrollbar { /* Tarayıcının(Google Chrome) özellikleri wekit şeklinde geçer. Burada oraya göre pseudo element oluşturuyoruz.  */
 
   width: 30px; 
 
