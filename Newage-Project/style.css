@@ -58,7 +58,8 @@
 .phone-container .phone-img {
   position: relative;
   z-index: 20;
-  border-radius: 10px;
+  border-radius: 33px;
+
 
 }
 
@@ -242,7 +243,7 @@ color: #3415d1e2;
   margin-left: 10%;
   width: 75%;
   height: auto;
-  border-radius: 10%;
+  border-radius: 4%;
 
 
 }
