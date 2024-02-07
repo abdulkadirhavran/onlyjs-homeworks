@@ -18,7 +18,7 @@ body {
 
     @media screen and (max-width: $mobile-size) {
         width: 100%;
-        padding: 0 30px;
+        padding: 0 20px;
     }
 
 }
@@ -848,7 +848,7 @@ body {
             margin-top: 20px;
             list-style: none;
             /* Bu özellikle list tiklerini kaldırıyoruz */
-            /* Ya da  list-style-image:url(...image clasını seç); bu şekilde de yapılabilir */
+            /* Ya da  list-style-image:url(...image class'ında istediğin resmi seç); bu şekilde de yapılabilir */
             color: #222;
             font-size: 18px;
             font-style: normal;
@@ -899,6 +899,11 @@ body {
         margin-top: 90px;
         margin-left: 80px;
 
+        @media (max-width:$mobile-size) {
+            margin: 35px 5px;
+
+        }
+
         .headtext {
             color: #222;
             font-family: Poppins;
@@ -940,39 +945,59 @@ body {
 
 
 
+        .but-link {
+            @media (max-width:$mobile-size) {
+                display: flex;
+                flex-wrap: wrap;
 
-        button {
-            margin-top: 30px;
-            display: flex;
-            width: 210px;
-            height: 72px;
-            padding: 10px;
-            justify-content: center;
-            align-items: center;
-            gap: 5px;
-            border-radius: 40px;
-            border: 2px solid #3984F4;
-            margin-bottom: 90px;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            background: linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            }
+
+            button {
+                margin-top: 30px;
+                display: flex;
+                width: 210px;
+                height: 72px;
+                padding: 10px;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                border-radius: 40px;
+                border: 2px solid #3984F4;
+                margin-bottom: 90px;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                background: linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+
+                @media (max-width:$mobile-size) {
+                    width: 100%;
+                    margin-bottom: 25px;
+
+
+                }
+            }
+
+            a {
+                color: #2F7CF0;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-decoration-line: underline;
+                margin-left: 45px;
+
+                @media (max-width:$mobile-size) {
+                    margin-left: 38%;
+
+                }
+            }
 
         }
 
-        a {
-            color: #2F7CF0;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            text-decoration-line: underline;
-            margin-left: 45px;
-        }
     }
 
 
@@ -981,6 +1006,101 @@ body {
         width: 750px;
         height: 650px;
 
+        @media (max-width:$mobile-size) {
+            width: 350px;
+            height: 337px;
+            margin: 20px 10px;
+
+        }
+
     }
+
+}
+
+.vault {
+    margin-top: 100px;
+    margin-top: 80px;
+
+    img {
+        width: 700px;
+        height: 600px;
+        margin: 0;
+
+        @media (max-width:$mobile-size) {
+            width: 367px;
+            height: 302px;
+            margin: 130px 4px 35px 4px;
+        }
+    }
+
+    .vaultexts {
+        margin-left: 70px;
+        @media (max-width:$mobile-size) {
+            margin-left: 0;
+        }
+
+        .headtext {
+            color: #222;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-left: 35px;
+            @media (max-width:$mobile-size) {
+                margin: 35px 0 40px 20px;
+            }
+        }
+
+        ul {
+            color:#222;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            list-style: none;
+            margin-top: 30px;
+            @media (max-width:$mobile-size) {
+                margin: 35px 0 40px 20px;
+                padding: 0;
+            }
+
+            .subhead {
+                margin-top: 25px;
+                @media (max-width:$mobile-size) {
+
+                    padding: 0;
+                }
+               
+            }
+
+
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+
+            .litext {
+                color: #666;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+                margin-top: 12px;
+
+                span {
+                    text-decoration-line: underline;
+                }
+            }
+        }
+    }
+
+}
+
+.coin-steps {
+    padding: 250px;
+    margin: 120px 30px;
+    border-radius: 40px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.70) -9.25%, rgba(255, 255, 255, 0.60) -9.25%, rgba(244, 249, 255, 0.70) 108.74%);
 
 }
