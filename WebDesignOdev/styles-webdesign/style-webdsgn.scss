@@ -1178,3 +1178,50 @@ body {
         }
     }
 }
+
+.frequently-ask {
+    margin-top: 150px;
+
+    .frequently-text {
+
+
+
+        .minihead {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.08px;
+            background: linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+
+        }
+
+        .head {
+            margin-top: 4px;
+            color: #000;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+
+        }
+        .accordion {
+            margin-top: 40px;
+            margin-left: -5px;
+
+        }
+    }
+
+    img {
+        width: 650px;
+        height: auto;
+        margin-left: -150px;
+    }
+
+
+
+}
