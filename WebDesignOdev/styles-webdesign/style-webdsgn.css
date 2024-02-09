@@ -1004,4 +1004,128 @@ body {
   width: 650px;
   height: auto;
   margin-left: -150px;
+}
+@media (max-width: 768px) {
+  .frequently-ask img {
+    margin-left: 0 10%;
+  }
+}
+
+.lastbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  margin-bottom: 40px;
+}
+.lastbtn .btn {
+  width: 180px;
+  height: 60px;
+  gap: 10px;
+  padding: 10px;
+  color: #83aeee;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about-section {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.about-section .container {
+  padding: 60px;
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+.about-section .container .col-md-3 {
+  border-right: 1px solid #DDD;
+}
+.about-section .container .aboutlist1 {
+  margin-left: 60px;
+}
+.about-section .container .aboutlist1 li {
+  padding-top: 14px;
+  list-style: none;
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.about-section .container .aboutlist2 {
+  margin-left: 60px;
+}
+.about-section .container .aboutlist2 li {
+  padding-top: 14px;
+  list-style: none;
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.about-section .container .aboutlist3 {
+  margin-left: 60px;
+}
+.about-section .container .aboutlist3 li {
+  padding-top: 14px;
+  list-style: none;
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.about-section .container .mail-form {
+  margin-top: 13px;
+  margin-left: 20px;
+}
+.about-section .container .mail-form .head {
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.about-section .container .mail-form .subhead {
+  margin-top: 13px;
+  color: #666;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.about-section .container .mail-form .form {
+  display: flex;
+  margin-top: 19px;
+}
+.about-section .container .mail-form .form input {
+  display: flex;
+  width: 180px;
+  height: 50px;
+  padding: 10px 10px 10px 14px;
+  align-items: center;
+  gap: 10px;
+  color: #666;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.about-section .container .mail-form .form button {
+  margin-left: 6px;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.about-section .container img {
+  width: 125px;
+  height: 50px;
+  margin-left: -40px;
 }/*# sourceMappingURL=style-webdsgn.css.map */
