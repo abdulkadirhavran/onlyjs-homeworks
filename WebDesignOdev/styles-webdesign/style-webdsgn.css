@@ -836,9 +836,10 @@ body {
 }
 @media (max-width: 768px) {
   .vault img {
-    width: 367px;
-    height: 302px;
+    width: 400px;
+    height: 340px;
     margin: 130px 4px 35px 4px;
+    padding-left: 7%;
   }
 }
 .vault .vaultexts {
@@ -860,6 +861,7 @@ body {
 @media (max-width: 768px) {
   .vault .vaultexts .headtext {
     margin: 35px 0 40px 20px;
+    padding: 0;
   }
 }
 .vault .vaultexts ul {
@@ -917,6 +919,7 @@ body {
 @media (max-width: 768px) {
   .buy-steps {
     margin: 0;
+    margin-top: 80px;
   }
 }
 .buy-steps .headtext {
@@ -977,6 +980,16 @@ body {
 .frequently-ask {
   margin-top: 150px;
 }
+@media (max-width: 768px) {
+  .frequently-ask {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .frequently-ask .frequently-text {
+    margin-left: 0 10%;
+  }
+}
 .frequently-ask .frequently-text .minihead {
   font-size: 18px;
   font-style: normal;
@@ -1003,11 +1016,11 @@ body {
 .frequently-ask img {
   width: 650px;
   height: auto;
-  margin-left: -150px;
+  margin-left: -120px;
 }
 @media (max-width: 768px) {
   .frequently-ask img {
-    margin-left: 0 10%;
+    margin: 0 10%;
   }
 }
 
@@ -1032,7 +1045,7 @@ body {
 
 .about-section {
   margin-top: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 .about-section .container {
   padding: 60px;
@@ -1044,6 +1057,13 @@ body {
 }
 .about-section .container .aboutlist1 {
   margin-left: 60px;
+}
+@media (max-width: 768px) {
+  .about-section .container .aboutlist1 {
+    margin-top: 35px;
+    margin-right: 600px;
+    border-bottom: 1px solid #DDD;
+  }
 }
 .about-section .container .aboutlist1 li {
   padding-top: 14px;
@@ -1128,4 +1148,23 @@ body {
   width: 125px;
   height: 50px;
   margin-left: -40px;
+}
+
+footer .copyright {
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 768px) {
+  footer .copyright {
+    margin: 30px 77px;
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=style-webdsgn.css.map */

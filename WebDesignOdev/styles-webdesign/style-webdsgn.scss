@@ -1027,9 +1027,10 @@ body {
         margin: 0;
 
         @media (max-width:$mobile-size) {
-            width: 367px;
-            height: 302px;
+            width: 400px;
+            height: 340px;
             margin: 130px 4px 35px 4px;
+            padding-left: 7%;
         }
     }
 
@@ -1038,6 +1039,7 @@ body {
 
         @media (max-width:$mobile-size) {
             margin-left: 0;
+
         }
 
         .headtext {
@@ -1050,6 +1052,7 @@ body {
 
             @media (max-width:$mobile-size) {
                 margin: 35px 0 40px 20px;
+                padding: 0;
             }
         }
 
@@ -1115,6 +1118,7 @@ body {
 
     @media (max-width:$mobile-size) {
         margin: 0;
+        margin-top: 80px;
     }
 
     .headtext {
@@ -1182,9 +1186,14 @@ body {
 .frequently-ask {
     margin-top: 150px;
 
+    @media (max-width:$mobile-size) {
+        margin-top: 80px;
+    }
 
     .frequently-text {
-
+        @media (max-width:$mobile-size) {
+            margin-left: 0 10%;
+        }
 
 
         .minihead {
@@ -1221,10 +1230,10 @@ body {
     img {
         width: 650px;
         height: auto;
-        margin-left: -150px;
+        margin-left: -120px;
 
         @media (max-width:$mobile-size) {
-            margin-left: 0 10%;
+            margin: 0 10%;
         }
 
     }
@@ -1256,12 +1265,14 @@ body {
 
 .about-section {
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 
     .container {
         padding: 60px;
         border-top: 1px solid #DDD;
         border-bottom: 1px solid #DDD;
+
+
 
         .col-md-3 {
 
@@ -1271,6 +1282,12 @@ body {
 
         .aboutlist1 {
             margin-left: 60px;
+
+            @media (max-width:$mobile-size) {
+                margin-top: 35px;
+                margin-right: 600px;
+                border-bottom: 1px solid #DDD;
+            }
 
             li {
                 padding-top: 14px;
@@ -1317,6 +1334,7 @@ body {
         .mail-form {
             margin-top: 13px;
             margin-left: 20px;
+
             .head {
                 color: #666;
                 font-size: 16px;
@@ -1339,7 +1357,7 @@ body {
             .form {
                 display: flex;
                 margin-top: 19px;
-                
+
 
                 input {
                     display: flex;
@@ -1382,4 +1400,25 @@ body {
 
 
 
+}
+
+footer {
+
+    .copyright {
+        margin: 25px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #666;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        @media (max-width:$mobile-size) {
+            margin: 30px 77px;
+            font-size: 12px;
+        }
+    }
 }
