@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&display=swap');
 
+
 * {
   font-family: system-ui;
 }
@@ -53,6 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 150px;
 }
 
 .phone-container .phone-img {
@@ -65,12 +67,12 @@
 
 .phone-container .gradient-circle {
   position: absolute;   /* bi class'a bi position verilir. */
-  width: 400px;
-  height: 400px;
-  border-radius: 100%;
-  background: #614385;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background: #614385;  
+  background: -webkit-linear-gradient(to right, #516395, #614385);  
+  background: linear-gradient(to right, #516395, #614385);
   z-index: 10;
   
 }
@@ -78,8 +80,8 @@
   position: absolute;
   z-index: 10;
   font-size: 50px;
-  top: -50px;
-  left: 350px;
+  top: -80px;
+  left: 450px;
   color: rgba(140, 0, 255, 0.384); 
 }
 
@@ -88,7 +90,7 @@
   z-index: 10;
   font-size: 30px;
   top: 330px;
-  right: 420px;
+  right: 480px;
   color: rgba(219, 80, 135, 0.493); 
 
 }
@@ -333,6 +335,7 @@ color: #3415d1e2;
   padding: 200px 0;
   background-image: url(https://datasemantics.co/wp-content/uploads/2021/02/How-Data-Analytics-is-Reshaping-Finance-The-Growing-Value-of-Financial-Analytics-in-2021.jpg);
   background-size: cover;  /* Background image in tam sığmasını sağlar */
+  background-repeat: no-repeat;
   position: relative;
 
 }
