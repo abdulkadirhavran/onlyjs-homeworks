@@ -1063,10 +1063,11 @@ body {
 .frequently-ask {
   margin-top: 150px;
 
-  .frequently-text {
-    @media (max-width: $mobile-size) {
-      margin-left: 0 10%;
-    }
+    .frequently-text {
+        @media (max-width:$mobile-size) {
+            margin-left: 0 10%;
+        }
+
 
     .minihead {
       font-size: 18px;
@@ -1095,24 +1096,12 @@ body {
     }
   }
 
-  img {
-    width: 650px;
-    height: auto;
-    margin-left: -150px;
-  }
-}
-
-.about-section {
-  .container {
     img {
-      margin-right: 25px;
+        width: 650px;
+        height: auto;
+        margin-left: -150px;
     }
-  }
-}
 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15px;
+
+
 }
