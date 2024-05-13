@@ -138,7 +138,7 @@ body {
             #2f7cf0 78.04%,
             #0e65e8 103.77%
           );
-          background-clip: text;
+
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           font-family: Poppins;
@@ -146,6 +146,7 @@ body {
           font-style: normal;
           font-weight: 700;
           line-height: 82px;
+          background-clip: text;
 
           @media (max-width: $mobile-size) {
             font-size: 34px;
@@ -710,13 +711,13 @@ body {
           #2f7cf0 78.04%,
           #0e65e8 103.77%
         );
-        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 36px;
         font-style: normal;
         font-weight: 600;
         line-height: 52px;
+        background-clip: text;
       }
     }
 
@@ -807,13 +808,14 @@ body {
           #2f7cf0 78.04%,
           #0e65e8 103.77%
         );
-        background-clip: text;
+
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 32px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        background-clip: text;
       }
     }
 
@@ -858,9 +860,9 @@ body {
         font-weight: 500;
         line-height: normal;
         background: linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%);
-        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        background-clip: text;
 
         @media (max-width: $mobile-size) {
           width: 100%;
@@ -1063,11 +1065,10 @@ body {
 .frequently-ask {
   margin-top: 150px;
 
-    .frequently-text {
-        @media (max-width:$mobile-size) {
-            margin-left: 0 10%;
-        }
-
+  .frequently-text {
+    @media (max-width: $mobile-size) {
+      margin-left: 0 10%;
+    }
 
     .minihead {
       font-size: 18px;
@@ -1076,9 +1077,9 @@ body {
       line-height: normal;
       letter-spacing: 1.08px;
       background: linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%);
-      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
 
     .head {
@@ -1096,12 +1097,9 @@ body {
     }
   }
 
-    img {
-        width: 650px;
-        height: auto;
-        margin-left: -150px;
-    }
-
-
-
+  img {
+    width: 650px;
+    height: auto;
+    margin-left: -150px;
+  }
 }
