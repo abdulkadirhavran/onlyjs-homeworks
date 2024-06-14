@@ -125,8 +125,8 @@ body {
 }
 .hero-sect .hero .herotext .herotitle .herointitle {
   background: linear-gradient(169deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Poppins;
   font-size: 68px;
@@ -661,8 +661,8 @@ body {
 }
 .cards .cardstext .text .brandname {
   background: linear-gradient(169deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 36px;
   font-style: normal;
@@ -742,8 +742,8 @@ body {
 }
 .tool .tooltexts .headtext span {
   background: linear-gradient(169deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 32px;
   font-style: normal;
@@ -789,8 +789,8 @@ body {
   font-weight: 500;
   line-height: normal;
   background: linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 @media (max-width: 768px) {
@@ -992,8 +992,8 @@ body {
   line-height: normal;
   letter-spacing: 1.08px;
   background: linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .frequently-ask .frequently-text .head {
