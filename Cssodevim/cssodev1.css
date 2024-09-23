@@ -5,3 +5,7 @@ html {
 h2 {
   color: rgba(112, 22, 30, 0.5);
 }
+
+table {
+  margin-left: 570px;
+}
